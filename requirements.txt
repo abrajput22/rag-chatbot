@@ -1,6 +1,6 @@
 streamlit
 cohere
-pinecone-client
+pinecone
 langchain>=0.3.0
 langchain-openai>=0.3.32
 langchain-core>=0.3.75
