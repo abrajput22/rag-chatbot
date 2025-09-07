@@ -1,6 +1,6 @@
 streamlit
 cohere
-pinecone-client
+pinecone
 langchain
 langchain-openai
 langchain-core
