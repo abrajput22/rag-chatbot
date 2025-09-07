@@ -1,8 +1,13 @@
 streamlit
 cohere
 pinecone-client
+langchain>=0.3.0
 langchain-openai>=0.3.32
 langchain-core>=0.3.75
+langchain-google-genai
+langchain-community
 langgraph>=0.6.6
 python-dotenv==1.0.0
 pydantic>=2.9.0,<3.0
+pypdf
+typing-extensions
