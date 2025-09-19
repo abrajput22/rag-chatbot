@@ -9,10 +9,11 @@ load_dotenv()
 
 
 embedder = GoogleGenerativeAIEmbeddings(
-    model="models/embedding-001",  
-    google_api_key=os.getenv('GEMINI_API_KEY'),
+    model="text-embedding-004",  
+    google_api_key=os.getenv("GEMINI_API_KEY"),
     transport="grpc"
 )
+
 
 pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))
 index_name = "pdf-knowledge-base"
@@ -69,3 +70,4 @@ if __name__ == "__main__":
 
 
 #  python embedding.py
+
